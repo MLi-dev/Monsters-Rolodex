@@ -1,8 +1,8 @@
-import React from 'react'; 
+import React from 'react';
 
 
 export const SearchBox = ({ placeholder, handleChange }) => (
-    <input className = 'search'
+    <input className = 'searchMonsters'
     type = 'search' placeholder = {placeholder} onChange = {handleChange}
     />
 )
